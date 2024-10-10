@@ -1,4 +1,4 @@
-# 📝✍️ Welcome to the Blog Application!
+# 📝 Welcome to the Blog Application!
 
 This is a modern web application designed to showcase a collection of blogs. It features a clean and responsive UI, and allows users to explore, filter, and search for blog posts effortlessly.
 
