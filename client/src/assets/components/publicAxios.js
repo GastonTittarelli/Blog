@@ -5,6 +5,6 @@ const publicAxios = axios.create({
   // baseURL: 'http://localhost:5000',
 
   // Production
-  baseURL: 'http://blushing-shimmer-latency.glitch.me/',
+  baseURL: 'https://blushing-shimmer-latency.glitch.me/',
 });
 export default publicAxios;
