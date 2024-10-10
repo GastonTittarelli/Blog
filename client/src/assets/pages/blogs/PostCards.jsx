@@ -10,15 +10,16 @@ const PostCards = () => {
   const {tags, search} = useSelector((state) => state.filter)
   console.log(tags, search);
   
+  const [currentPage, setCurrentPage] = useState(1);
+  const blogsPerPage = 6;
+
   useEffect(() => {
     dispatch(fetchBlogs({tags, search}));
   }, [dispatch, tags, search]);
 
-  const [currentPage, setCurrentPage] = useState(1);
-  const blogsPerPage = 6;
-  const startIndex = ((currentPage -1) * blogsPerPage);
-  const endIndex = currentPage * blogsPerPage;
-  const paginatedBlogs = blogs.slice(startIndex, endIndex);
+  
+  const paginatedBlogs = blogs.slice((currentPage - 1) * blogsPerPage, currentPage * blogsPerPage);
+
   const handlePageChange = (newPage) =>{
     setCurrentPage(newPage)
   }
