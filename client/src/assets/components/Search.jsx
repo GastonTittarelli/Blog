@@ -21,7 +21,7 @@ const Search = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit}  className="relative flex items-center h-12 rounded-lg focus-within:shadow-lg bg-white overflow-hidden">
+    <form onSubmit={handleSubmit}  className="relative flex items-center h-12 rounded-lg shadow-lg bg-white overflow-hidden border border-transparent focus-within:border-gray-300 transition duration-200">
       <div className="grid place-items-center h-full w-24 text-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"

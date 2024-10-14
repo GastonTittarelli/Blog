@@ -7,9 +7,9 @@ const Navbar = () => {
       <header className="flex items-center justify-between py-4 border-b">
         <a
           href="/"
-          className="px-2 lg:px-0 uppercase font-bold text-purple-800"
+          className="px-2 lg:px-0 "
         >
-          LOGO
+          <img className="w-[60px] transition-transform duration-300 transform hover:scale-105" src="/logoBlog.png" alt="Mindful Bytes Logo" />
         </a>
         <div>
           <Search/>

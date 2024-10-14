@@ -14,7 +14,7 @@ const Banner = () => {
           <div className="p-4 absolute bottom-0 left-0 z-20">
             <span className="px-4 py-1 bg-black text-gray-200 inline-flex items-center justify-center mb-2">Nutrition</span>
             <h2 className="text-4xl font-semibold text-gray-100 leading-tight">
-              Pellentesque a consectetur velit, ac molestie ipsum. Donec sodales, massa et auctor.
+            Start your day with a delicious breakfast. A morning feast brings joy and energy.
             </h2>
             <div className="flex mt-3">
               <img src="https://randomuser.me/api/portraits/men/97.jpg" className="h-10 w-10 rounded-full mr-2 object-cover" alt="Author" />
@@ -35,7 +35,7 @@ const Banner = () => {
           <img src="https://images.unsplash.com/photo-1543362906-acfc16c67564?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1301&q=80" className="absolute left-0 top-0 w-full h-full rounded z-0 object-cover" alt="Second Example" />
           <div className="p-4 absolute bottom-0 left-0 z-20">
             <span className="px-4 py-1 bg-black text-gray-200 inline-flex items-center justify-center mb-2">Science</span>
-            <h2 className="text-3xl font-semibold text-gray-100 leading-tight">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+            <h2 className="text-3xl font-semibold text-gray-100 leading-tight">Fresh greens for a healthy lifestyle.</h2>
             <div className="flex mt-3">
               <img src="https://randomuser.me/api/portraits/men/97.jpg" className="h-10 w-10 rounded-full mr-2 object-cover" alt="Author" />
               <div>

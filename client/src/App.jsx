@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom"
 import Navbar from "./assets/components/Navbar"
 import {store} from './redux/store'
 import { Provider } from 'react-redux'
+import Footer from "./assets/components/Footer"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <main className="mt-8 min-h-screen">
           <Outlet/>
         </main>
+        <Footer/>
       </div>
     </Provider>
   )

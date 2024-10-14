@@ -34,7 +34,7 @@ console.log(blogs);
           {
             paginatedBlogs.map((blog, index) => (<Card blog={blog} key={index}/>))
           }
-          <div className='space-x-2'>
+          <div className='space-x-2 flex justify-center'>
             <button 
               className='px-2 bg-slate-400 text-white rounded cursor-pointer'
               onClick={() => handlePageChange(currentPage - 1)}
@@ -44,7 +44,7 @@ console.log(blogs);
             </button>
             <span>{currentPage}</span>
             <button
-              className='px-2 bg-slate-500 text-white rounded cursor-pointer'
+              className='px-2 bg-indigo-600 text-white rounded cursor-pointer'
               onClick={() => handlePageChange(currentPage + 1)}
               disabled={currentPage === 15}
             >

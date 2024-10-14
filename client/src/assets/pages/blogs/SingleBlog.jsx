@@ -44,7 +44,7 @@ const SingleBlog = () => {
 
       <div className="flex flex-col lg:flex-row lg:space-x-12">
         <div className="px-4 lg:px-0 mt-8 text-gray-700 text-lg leading-relaxed w-full lg:w-3/4">
-          {/* ... Existing code ... */}
+          
           {content}
           <br /> <br />
           <p>
@@ -102,12 +102,12 @@ const SingleBlog = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-between mt-4 md:w-1/2">
+      <div className="flex items-center justify-evenly mt-4 md:w-2/3">
         <div className="flex items-center space-x-2">
           <BiCommentDetail className="text-gray-600" />
           <span className="text-gray-600">15 comments</span>
         </div>
-        <div className="flex items-center space-x-2 mt-8">
+        <div className="flex items-center space-x-2 ">
           <AiOutlineHeart className="text-red-500" />
           <span className="text-gray-600">120 likes</span>
         </div>
@@ -120,7 +120,7 @@ const SingleBlog = () => {
         </a>
       </div>
 
-<PopularBlogs/>
+  <PopularBlogs tags={category} currentBlogId={id}/>
 
     </article>
   )
