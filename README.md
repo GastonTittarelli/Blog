@@ -16,3 +16,6 @@ This is a modern web application designed to showcase a collection of blogs. It 
 - **Browse Blogs**: Explore a variety of blog posts.
 - **Search and Filter**: Easily find blogs using search and filter functionality.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Pagination**: Seamlessly browse through blog posts with pagination.
+- **Glitch Integration**: Used to deploy data so that users can access it without needing to run the data locally.
+- **AI-Generated Logo**: The logo was created using AI tools, giving the app a unique and modern identity.
