@@ -2,6 +2,11 @@
 
 This is a modern web application designed to showcase a collection of blogs. It features a clean and responsive UI, and allows users to explore, filter, and search for blog posts effortlessly.
 
+## Screenshot
+- **Home**
+<img src="https://github.com/user-attachments/assets/1b0db317-ef8c-43c4-bf49-fcb43a2a81f6" width="1903" height="916" alt="image" />
+
+  
 ## Technologies Used
 
 - **React**: A JavaScript library for building user interfaces.
